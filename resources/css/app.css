@@ -1,5 +1,11 @@
 @import 'tailwindcss';
 
+@plugin "flyonui";
+@import 'flyonui/variants.css';
+@source "../node_modules/flyonui/flyonui.js";
+@import 'flyonui/src/vendor/datatables.css';
+@plugin "@iconify/tailwind4";
+
 @import 'tw-animate-css';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
